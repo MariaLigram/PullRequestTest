@@ -30,3 +30,4 @@ console.log("End3");
 console.log("End4");
 
 //проверка
+//проверка2 из гитхаба
