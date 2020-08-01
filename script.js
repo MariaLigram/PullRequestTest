@@ -1,5 +1,5 @@
-//Prototype. УРОК 1
-//Очевидное создание объекта. Переменная person является инстансом (Экземпляр класса (англ. instance) ) класса Object
+//УРОК 1. Prototype.
+//Очевидное создание оъекта. Переменная person является инстансом (Экземпляр класса (англ. instance) ) класса Object
 const person = new Object({
   name: "Maxim",
   age: 26,
@@ -19,7 +19,9 @@ lena.name = "Elena";
 //Очевидное создание объекта строка
 const str = new String("I am string");
 
-//Event Loop. УРОК 4
+//УРОК 2. Контекст this. Как работает call, bind, apply
+
+//УРОК 4. Event Loop
 console.log("Start");
 setTimeout(function () {
   console.log("Inside setTimeout");
@@ -28,5 +30,3 @@ console.log("End");
 console.log("End2");
 console.log("End3");
 console.log("End4");
-
-
