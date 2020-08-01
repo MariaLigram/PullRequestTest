@@ -28,3 +28,5 @@ console.log("End");
 console.log("End2");
 console.log("End3");
 console.log("End4");
+
+//проверка
